@@ -1,0 +1,56 @@
+label {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="number"] {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    padding: 15px 40px;
+}
+
+.wdm-container {
+    width: 80%;
+    margin: auto 10px;
+}
+
+.wdm-is-invalid {
+    border: 1px solid red !important;
+}
+
+.wdm-err {
+    display: block;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: 1px solid #fcd5d9;
+    border-radius: 5px;
+    background-color: #f8d7db;
+    color: #652229;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wdm_export_events_data_container {
+    width: 60% !important;
+}
